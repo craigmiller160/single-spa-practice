@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+*.iml
+api/node_modules
+navbar/node_modules
+people/node_modules
+planets/node_modules
+root-config/node_modules
+shared-dependencies/node_modules
+styleguide/node_modules
