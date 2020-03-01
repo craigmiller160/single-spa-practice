@@ -2,20 +2,20 @@
 .idea
 *.iml
 
-api/node_modules
-api/dist
+code/api/node_modules
+code/api/dist
 
-navbar/node_modules
-navbar/dist
+code/navbar/node_modules
+code/navbar/dist
 
-people/node_modules
-people/dist
+code/people/node_modules
+code/people/dist
 
-planets/node_modules
-planets/dist
+code/planets/node_modules
+code/planets/dist
 
-root-config/node_modules
-root-config/dist
+code/root-config/node_modules
+code/root-config/dist
 
-styleguide/node_modules
-styleguide/dist
+code/styleguide/node_modules
+code/styleguide/dist
