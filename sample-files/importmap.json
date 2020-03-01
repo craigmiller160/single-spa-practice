@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@16.12.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.12.0/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.0.0-beta.1/lib/system/single-spa.min.js",
+    "@react-mf/root-config": "https://react.microfrontends.app/root-config/9b94dcf01abecbb10cc5c293643dfc11bc7e2548/react-mf-root-config.js",
+    "@react-mf/navbar": "https://react.microfrontends.app/navbar/ce0277b972a806aa94ee64e18f321d6f1a35b96b/react-mf-navbar.js",
+    "@react-mf/styleguide": "https://react.microfrontends.app/styleguide/9a3b096b4b6978424831005c40b5d3b805a0a181/react-mf-styleguide.js",
+    "@react-mf/people": "https://react.microfrontends.app/people/b6d89a945048951f9486c41a464d76cb8494b098/react-mf-people.js",
+    "@react-mf/api": "https://react.microfrontends.app/api/8109f32a90897754767ef5ba48bbcae3b8f59ff5/react-mf-api.js",
+    "@react-mf/planets": "https://react.microfrontends.app/planets/f6631080a987958adeb98f63effa41b3bac98d1a/react-mf-planets.js",
+    "@react-mf/things": "https://react.microfrontends.app/things/7f209a1ed9ac9690835c57a3a8eb59c17114bb1d/react-mf-things.js"
+  }
+}
