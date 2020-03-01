@@ -19,3 +19,5 @@ code/root-config/dist
 
 code/styleguide/node_modules
 code/styleguide/dist
+
+*.ods#
