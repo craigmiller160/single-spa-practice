@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PORT=9001
-NAME=single-spa-root-config
+PORT=9003
+NAME=single-spa-api
 
 echo "Stopping container"
 sudo docker stop $NAME 1>/dev/null 2>/dev/null
