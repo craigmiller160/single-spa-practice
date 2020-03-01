@@ -5,6 +5,8 @@ import addId from "./addId.js";
 
 const baseURL = "https://swapi.co/api/";
 
+console.log(from); // TODO delete this
+
 const axiosInstance = axios.create({
   baseURL,
   timeout: 20000
