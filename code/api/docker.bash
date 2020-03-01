@@ -14,6 +14,7 @@ sudo docker run \
     -d \
     -p $PORT:80 \
     -v "$(pwd)/dist":/usr/share/nginx/html \
+    -v "$(pwd)/nginx.conf":/etc/nginx/nginx.conf \
     --name=$NAME \
     nginx:1.15.10
 
