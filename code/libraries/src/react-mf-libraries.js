@@ -1,1 +1,1 @@
-import { from } from 'rxjs';
+export rxjs from './rxjs';

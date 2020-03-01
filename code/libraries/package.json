@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "sideEffects": true,
   "scripts": {
     "build": "webpack --mode=production"
   },
@@ -10,6 +11,7 @@
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-proposal-export-default": "^7.0.0-beta.32",
     "@babel/plugin-proposal-object-rest-spread": "7.7.7",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
@@ -44,5 +46,8 @@
     "webpack-config-single-spa-react": "1.0.3",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3"
   }
 }
