@@ -1,6 +1,7 @@
 const path = require("path");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = env => ({
   entry: path.resolve(__dirname, "src/root-config"),
@@ -35,7 +36,10 @@ module.exports = env => ({
         isLocal: env && env.isLocal
       }
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new CopyWebpackPlugin([
+      'public'
+    ])
   ],
   externals: ["single-spa", /^@react-mf\/.+$/]
 });

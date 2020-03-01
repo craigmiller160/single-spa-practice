@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@react-mf/root-config": "http://localhost:9001/react-mf-root-config.js"
+  }
+}
