@@ -2,6 +2,8 @@
   "imports": {
     "@react-mf/root-config": "http://localhost:9001/react-mf-root-config.js",
     "@react-mf/styleguide": "http://localhost:9004/react-mf-styleguide.js",
-    "@react-mf/navbar": "http://localhost:9005/react-mf-navbar.js"
+    "@react-mf/navbar": "http://localhost:9005/react-mf-navbar.js",
+    "@react-mf/people": "http://localhost:9006/react-mf-people.js",
+    "@react-mf/api": "http://localhost:9003/react-mf-api.js"
   }
 }
