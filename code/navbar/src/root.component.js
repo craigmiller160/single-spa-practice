@@ -20,13 +20,13 @@ export default class Root extends React.Component {
           <div className="root navBarHeight">Error</div>
         ) : (
           <div className="root navBarHeight">
-            <Link
-              to="/"
-              className="primary-navigation-link"
-            >
-              Home
-            </Link>
             <div>
+              <Link
+                  to="/"
+                  className="primary-navigation-link"
+              >
+                Home
+              </Link>
               {links.map(link => {
                 return (
                   <Link
