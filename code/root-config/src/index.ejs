@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Root Config</title>
   <meta name="importmap-type" content="systemjs-importmap" />
-<!--   <script type="systemjs-importmap" src="https://storage.googleapis.com/react.microfrontends.app/importmap.json"></script> -->
+  <!-- Shared Dependencies Import Map -->
   <script type="systemjs-importmap" src="http://localhost:9002/importmap.json"></script>
   <% if (isLocal) { %>
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@react-mf/root-config": "http://localhost:9001/react-mf-root-config.js"
+        "@react-mf/root-config": "http://localhost:9001/react-mf-root-config.js",
+        "@react-mf/api": "http://localhost:9003/react-mf-api.js",
+        "@react-mf/navbar": "http://localhost:9004/react-mf-navbar.js"
       }
     }
   </script>
