@@ -1,5 +1,6 @@
 const webpackMerge = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-react");
+const CleanWebpackPlugin = require("clean-webpack-plugin").CleanWebpackPlugin;
 const path = require("path");
 
 module.exports = {
@@ -10,5 +11,8 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
-  }
+  },
+  plugins: [
+      new CleanWebpackPlugin()
+  ]
 };
