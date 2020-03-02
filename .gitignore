@@ -20,4 +20,7 @@ code/root-config/dist
 code/styleguide/node_modules
 code/styleguide/dist
 
+code/libraries/node_modules
+code/libraries/dist
+
 *.ods#
