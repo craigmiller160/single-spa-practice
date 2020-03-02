@@ -9,6 +9,9 @@ sudo docker stop $NAME 1>/dev/null 2>/dev/null
 echo "Deleting container"
 sudo docker rm $NAME 1>/dev/null 2>/dev/null
 
+echo "Building project"
+yarn build
+
 echo "Creating container"
 sudo docker run \
     -d \
