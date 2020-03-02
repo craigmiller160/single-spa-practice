@@ -9,17 +9,6 @@
   <!-- Shared Dependencies Import Map -->
   <script type="systemjs-importmap" src="http://localhost:9002/importmap.json"></script>
   <script type="systemjs-importmap" src="http://localhost:9001/app-importmap.json"></script>
-  <% if (isLocal) { %>
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "@react-mf/root-config": "http://localhost:9001/react-mf-root-config.js",
-        "@react-mf/api": "http://localhost:9003/react-mf-api.js",
-        "@react-mf/navbar": "http://localhost:9004/react-mf-navbar.js"
-      }
-    }
-  </script>
-  <% } %>
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides/dist/import-map-overrides.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.min.js"></script>
