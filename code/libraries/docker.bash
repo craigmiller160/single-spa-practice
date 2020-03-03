@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PORT=9005
-NAME=single-spa-navbar
+PORT=9008
+NAME=single-spa-libraries
 
 echo "$NAME: Stopping container"
 sudo docker stop $NAME 1>/dev/null 2>/dev/null

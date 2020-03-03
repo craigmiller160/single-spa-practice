@@ -24,6 +24,9 @@ export function fetchWithCache(url, axiosOptions) {
       );
     }
   }
+
+  console.log(from); // TODO delete this
+
   return from(axiosInstance(options)).pipe(
     pluck("data"),
     map(response => {

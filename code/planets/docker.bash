@@ -3,13 +3,17 @@
 PORT=9007
 NAME=single-spa-planets
 
-echo "Stopping container"
+echo "$NAME: Stopping container"
 sudo docker stop $NAME 1>/dev/null 2>/dev/null
 
-echo "Deleting container"
+echo "$NAME: Deleting container"
 sudo docker rm $NAME 1>/dev/null 2>/dev/null
 
-echo "Creating container"
+echo "$NAME: Building project"
+yarn
+yarn build
+
+echo "$NAME: Creating container"
 sudo docker run \
     -d \
     -p $PORT:80 \
@@ -19,5 +23,5 @@ sudo docker run \
     nginx:1.15.10
 
 if [[ $? -eq 0 ]]; then
-    echo "Container $NAME is running and exposed on port $PORT"
+    echo "$NAME is running and exposed on port $PORT"
 fi

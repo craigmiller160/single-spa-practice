@@ -10,7 +10,8 @@ module.exports = webpackConfigEnv => {
 
   return webpackMerge.smart(defaultConfig, {
     externals: [
-        "axios"
+      "rxjs",
+      "axios"
     ]
     // modify the webpack config however you'd like to by adding to this object
   });
