@@ -35,9 +35,7 @@
     "jest-cli": "^24.9.0",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "single-spa-react": "^2.10.4",
     "style-loader": "^1.0.1",
-    "systemjs-webpack-interop": "^1.1.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-config-single-spa-react": "^1.0.3",
@@ -48,6 +46,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rxjs": "^6.5.3",
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "systemjs-webpack-interop": "^1.1.2"
   }
 }
