@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { useCss } from "kremling";
-import { from, of, forkJoin } from "rxjs";
-import { tap, mergeMap, switchMap, mergeAll, map } from "rxjs/operators";
+import { forkJoin } from "rxjs";
 import styles from "./films.krem.css";
 import { getFilm } from "../utils/api.js";
 import Film from "./film.component.js";
