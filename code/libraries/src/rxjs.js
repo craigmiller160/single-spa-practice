@@ -1,5 +1,6 @@
-import { from } from 'rxjs';
+import { from, forkJoin } from 'rxjs';
 
 export default {
-    from
+    from,
+    forkJoin
 }
