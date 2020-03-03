@@ -10,6 +10,7 @@ echo "$NAME: Deleting container"
 sudo docker rm $NAME 1>/dev/null 2>/dev/null
 
 echo "$NAME: Building project"
+yarn
 yarn build
 
 echo "$NAME: Creating container"
