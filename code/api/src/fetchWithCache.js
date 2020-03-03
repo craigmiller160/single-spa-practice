@@ -3,7 +3,7 @@ import { pluck, tap, map } from "rxjs/operators";
 import axios from "axios";
 import addId from "./addId.js";
 
-console.log(axios.default.create); // TODO delete this
+console.log(axios.create); // TODO delete this
 
 const baseURL = "https://swapi.co/api/";
 
