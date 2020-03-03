@@ -3,9 +3,11 @@ import { pluck, tap, map } from "rxjs/operators";
 import axios from "axios";
 import addId from "./addId.js";
 
+console.log(axios.default.create); // TODO delete this
+
 const baseURL = "https://swapi.co/api/";
 
-const axiosInstance = axios.create({
+const axiosInstance = axios.default.create({
   baseURL,
   timeout: 20000
 });
@@ -24,8 +26,6 @@ export function fetchWithCache(url, axiosOptions) {
       );
     }
   }
-
-  console.log(from); // TODO delete this
 
   return from(axiosInstance(options)).pipe(
     pluck("data"),
